@@ -1,0 +1,27 @@
+.title {
+  font-size: 2rem;
+  color: black;
+  font-weight: 600;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title a {
+  font-size: 1rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border-radius: 0.25rem;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.title a:hover {
+  background-color: black;
+  color: white;
+}

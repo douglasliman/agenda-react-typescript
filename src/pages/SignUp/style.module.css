@@ -1,0 +1,75 @@
+.loginContainer {
+    height: calc(100vh - 2rem);
+  width: 100%;
+  display: grid;
+  grid-template-columns: 500px 1fr;
+}
+@media screen and (max-width: 800px) {
+  .loginContainer {
+  display: inline-flex;
+  justify-content: center;
+}
+.contentImg{
+  display: none;
+}
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+  border-radius: 0.25rem;
+  padding: 1rem 0;
+}
+
+.loginFormLogo {
+  font-size: 3rem;
+  color: black;
+  margin: 0 auto;
+}
+.contentLogo {
+  width: 278px;
+  height: 50px;
+}
+.contentLogin {
+  max-width: 400px;
+}
+.logoImg {
+    display: flex;
+  background-image: url(../../assets/logo.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.logoText {
+  font-weight: 900;
+  font-size: large;
+}
+.contentForm {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contentImg {
+  height: calc(100vh - 2rem);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../../assets/bg-img-cadastro.png);
+}
+
+.contentFrase {
+  max-width: 278px;
+}
+.titleApresentacao {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.fraseApresentacao {
+  font-size: 1rem;
+}
+.botaoSecundario{
+    text-align: center;
+}
